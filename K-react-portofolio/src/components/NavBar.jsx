@@ -1,18 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function NavBar() {
+    const currentPage = useLocation().pathname;
+    console.log(currentPage);
     return (
-        <header>
-                <a href="/#">Kane Esasta</a>
-            <ul>
 
-                <li><Link to="/aboutMe">About Me</Link></li>
-                <li><Link to="/portfolio">Portfolio</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/resume">Resume</Link></li>
-            </ul>
-        </header>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div className="container-fluid">
+                <span className="navbar-brand mb-0 h1">Kane Esasta</span>
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item"><Link to="/" className="nav-link">About Me</Link></li>
+                        <li className="nav-item"><Link to="/portfolio" className="nav-link">Portfolio</Link></li>
+                        <li className="nav-item"><Link to="/contact" className="nav-link">Contact</Link></li>
+                        <li className="nav-item"><Link to="/resume" className="nav-link">Resume</Link></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     );
 }
 

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const portofolio = () => {
+const Portfolio = () => {
   return (
     <div>
-        portofolio
+        portfolio
        
 
         
@@ -11,4 +11,4 @@ const portofolio = () => {
   )
 }
 
-export default portofolio
+export default Portfolio
