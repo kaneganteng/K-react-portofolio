@@ -3,7 +3,7 @@ import myImage from '../asset/RainbowMountainKane.jpeg';
 
 const AboutMe = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
         <h1>About Me</h1>
         <img src={myImage} alt="Picture of Kane Esasta on the peak of Rainbow Mountain in Peru" width="300" height="400" />
         <p>Hi! My name is Kane Esasta, a fresh student who enrolled in edX Boot Camps LLC for full stack development through University of Central Florid <span>&#40;</span>UCF<span>&#41;</span>.

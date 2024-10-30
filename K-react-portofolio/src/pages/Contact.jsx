@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react'
 
 const Contact = () => {
 
@@ -17,12 +17,13 @@ const Contact = () => {
         {/* Email Address and type email input (required and needs to be in an email format) */}
         <div>
           <label className="form-label">Email Address:</label>
-          <input type="email" className="form-control" aria-describedby="emailHelp" Required />
+          <input type="email" className="form-control" aria-describedby="emailHelp" required />
           <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
         </div>
+        {/* Message section */}
         <div>
           <label className="form-label">Message:</label>
-          <input type="message" className="form-control" aria-describedby="emailHelp" Required />
+          <input type="message" className="form-control" aria-describedby="emailHelp" required />
         </div>
         <button type="submit" className="btn btn-primary">SUBMIT</button>
       </form>
