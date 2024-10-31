@@ -6,6 +6,7 @@ import EmployeeTracker from '../asset/image.png';
 import VehicleBuilder from '../asset/towtruck.jpg';
 import ComingSoon from '../asset/ComingSoon.jpg';
 
+// The six projects that should be portrayed on the Portfolio page
 const Project = () => {
   const projects = [{
     name: "Magic 8 Ball",

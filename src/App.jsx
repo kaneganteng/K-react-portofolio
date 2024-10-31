@@ -13,14 +13,10 @@ function App() {
   return (
 
     <div className="App">
-
       <Header />
       <main>
         <Outlet />
-        
       </main>
-
-
       <Footer />
     </div>
   )

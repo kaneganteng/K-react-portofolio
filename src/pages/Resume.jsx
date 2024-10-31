@@ -5,8 +5,10 @@ const Resume = () => {
     <div className="container">
       {/* link to the resume */}
       <h3>Coding Skills</h3>
-      <a href="https://docs.google.com/document/d/1EpYghTKmF4ip85LvZLDX11zDCFl9O59WZOX21zuSFjk/edit?usp=sharing">Kane Esasta Resume <span>&#40;</span>Click Me!!!<span>&#41;</span></a>
+      {/* Downloadable link to my resume PDF */}
+      <a href="https://drive.usercontent.google.com/u/0/uc?id=1BEQ6WcmaAZt1HP6aEiMGFbcvTS0Q4rF-&export=download">Kane Esasta Resume <span>&#40;</span>Click Me!!!<span>&#41;</span></a>
 
+{/* List of proficient skills in coding */}
       <ul className="list-group">
         <li className="list-group-item list-group-item-success">HTML5,</li>
         <li className="list-group-item list-group-item-success">CSS,</li>
@@ -26,4 +28,4 @@ const Resume = () => {
   )
 }
 
-export default Resume
+export default Resume;

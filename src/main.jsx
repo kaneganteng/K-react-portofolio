@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, BrowserRouter } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'  // Bootstrap
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Popper.js
 import App from './App.jsx';
 import Error from './pages/Error.jsx';
