@@ -12,9 +12,9 @@
   * [How to Contribute](#howToContribute)
   * [Test](#test)
   ## Installation
-  You can follow the link url to the deployed website. Which will be provided soon!
+  You can follow the link url to the deployed website. This portfolio is deployed using Netlify: https://67238d577c632200089dd803--k-react-portfolio.netlify.app/
   ## Usage
-  Once you follow the link to the deployed portfolio, you will be able to see something like this: <br> ![Screenshot of how my portfolio page looks like](./K-react-portofolio/src/asset/K-react-portfolio.png)
+  Once you follow the link to the deployed portfolio, you will be able to see something like this: <br> ![Screenshot of how my portfolio page looks like](./src/asset/K-react-portfolio.png)
   ## Credits
   N/A
   ## License
@@ -25,6 +25,7 @@
   * React.js
   * Vite
   * Bootstrap
+  * Netlify (for deployment)
   ## How to Contribute
   You can share your comments or inputs on what to add by contacting me.
   ## Questions
