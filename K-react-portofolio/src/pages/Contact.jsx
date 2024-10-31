@@ -4,7 +4,7 @@ const Contact = () => {
 
 
   return (
-    <div className="container-md">
+    <div className="container">
       {/* title for Contact page */}
       <h2>Contact</h2>
       {/* Form for contact information that includes name, email, and some message for questions or comments */}
@@ -23,7 +23,7 @@ const Contact = () => {
         {/* Message section */}
         <div>
           <label className="form-label">Message:</label>
-          <input type="message" className="form-control" aria-describedby="emailHelp" required />
+          <textarea className="form-control" rows="4" required></textarea>
         </div>
         <button type="submit" className="btn btn-primary">SUBMIT</button>
       </form>
