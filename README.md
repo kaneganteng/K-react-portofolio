@@ -12,7 +12,7 @@
   * [How to Contribute](#howToContribute)
   * [Test](#test)
   ## Installation
-  You can follow the link url to the deployed website. This portfolio is deployed using Netlify: https://67238d577c632200089dd803--k-react-portfolio.netlify.app/
+  You can follow the link url to the deployed website. This portfolio is deployed using Netlify: https://k-react-portfolio.netlify.app/
   ## Usage
   Once you follow the link to the deployed portfolio, you will be able to see something like this: <br> ![Screenshot of how my portfolio page looks like](./src/asset/K-react-portfolio.png)
   ## Credits
