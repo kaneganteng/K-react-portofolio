@@ -4,7 +4,7 @@ import WeatherForecast from '../asset/kWeatherForecast.png';
 import ReadmeGenerator from '../asset/readmeGenerator.png';
 import EmployeeTracker from '../asset/image.png';
 import VehicleBuilder from '../asset/towtruck.jpg';
-import ComingSoon from '../asset/ComingSoon.jpg';
+import Hangman2 from '../asset/Hangman2.png';
 
 // The six projects that should be portrayed on the Portfolio page
 const Project = () => {
@@ -34,10 +34,10 @@ const Project = () => {
     deployedUrl: "not deployed",
     image: VehicleBuilder
   }, {
-    name: "Coming soon!",
-    githubUrl: "coming soon",
-    deployedUrl: "coming soon",
-    image: ComingSoon
+    name: "Hangman 2",
+    githubUrl: "https://github.com/IsakTL/hangman-2",
+    deployedUrl: "https://hangman-2.onrender.com/",
+    image: Hangman2
   }
   ]
   
