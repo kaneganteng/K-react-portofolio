@@ -29,7 +29,7 @@ const Project = () => {
     deployedUrl: "not deployed",
     image: EmployeeTracker
   }, {
-    name: "Magic 8 Ball",
+    name: "Vehicle Builder",
     githubUrl: "https://github.com/kaneganteng/Vehicle-Builder.git",
     deployedUrl: "not deployed",
     image: VehicleBuilder
